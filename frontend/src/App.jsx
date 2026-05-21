@@ -4,7 +4,7 @@ import StudentForm from "./components/StudentForm";
 import StudentList from "./components/studentList";
 import "./App.css";
 
-const apiUrl = "http://localhost:8000/students";
+const apiUrl = "https://student-management-backend-2i4p.onrender.com/students";
 function App() {
   const [students, setStudents] = useState([]); //state to hold students data
   const [formData, setFormData] = useState({
