@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import StudentForm from "./components/StudentForm";
-import StudentList from "./components/studentList";
+import StudentList from "./components/StudentList";
 import "./App.css";
 
 const apiUrl = "https://student-management-backend-2i4p.onrender.com/students";
